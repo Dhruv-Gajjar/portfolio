@@ -177,7 +177,7 @@ button a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 40px;
+  margin: 0 80px;
 }
 
 img {
@@ -199,3 +199,44 @@ p {
   font-weight: var(--font-light);
   font-size: 1.25rem;
 }
+
+/* cards */
+.tools {
+  color: var(--clr-black);
+  text-align: center;
+  align-items: center;
+  background: var(--clr-white);
+}
+.tools-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  height: 150px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .card-container {
+  padding: 2px 16px;
+  margin: auto 10px;
+} */
+
+.tools-name {
+  color: var(--clr-primary-4);
+  font-size: 100px;
+}
+
+/* my work */
