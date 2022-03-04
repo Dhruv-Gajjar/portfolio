@@ -12,21 +12,26 @@
     <header>
       <nav>
         <div class="nav-center">
-          <div class="nav-header"></div>
-          <!-- nav links -->
-          <ul class="links">
+          <!-- nav-header -->
+          <div class="nav-header">
             <h4 class="logo">dhruv gajjar</h4>
-            <li class="nav-items">
-              <a href="#">Resume</a>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <ul class="links">
+            <li>
+              <a href="index.html">resume</a>
             </li>
-            <li class="nav-items">
-              <a href="#">My Work</a>
+            <li>
+              <a href="projects.html">projects</a>
             </li>
-            <li class="nav-items">
-              <a href="#">About Me</a>
+            <li>
+              <a href="about.html">about</a>
             </li>
-            <li class="nav-items">
-              <a href="#">Contact Me</a>
+            <li>
+              <a href="contact.html">contact</a>
             </li>
           </ul>
         </div>
@@ -54,30 +59,85 @@
       </div>
     </section>
     <!-- cards -->
-    <section class="tools">
-      <!-- start -->
-      <h2>Tools i use</h2>
-      <!-- HTML -->
-      <div class="tools-info">
-        <!-- HTML -->
-        <div class="card">
-          <p class="tools-name"><i class="fa-brands fa-html5"></i></p>
-          <div class="card-container"></div>
+    <section class="tools-info">
+      <h2>tools i use</h2>
+      <div class="tools">
+        <!-- Html -->
+        <div class="tool">
+          <p class="tool-icon"><i class="fa-brands fa-html5"></i></p>
+          <h4 class="tool-name">HTML</h4>
         </div>
-        <!-- CSS -->
-        <div class="card">
-          <p class="tools-name"><i class="fa-brands fa-css3"></i></p>
-          <div class="card-container"></div>
+        <!-- end -->
+        <!-- Css -->
+        <div class="tool">
+          <p class="tool-icon">
+            <i class="fa-brands fa-css3"></i>
+          </p>
+          <h4 class="tool-name">CSS</h4>
         </div>
+        <!-- end -->
         <!-- JavaScript -->
-        <div class="card">
-          <p class="tools-name"><i class="fa-brands fa-js"></i></p>
-          <div class="card-container"></div>
+        <div class="tool">
+          <p class="tool-icon">
+            <i class="fa-brands fa-js"></i>
+          </p>
+          <h4 class="tool-name">JavaScript</h4>
         </div>
+        <!-- end -->
       </div>
-      <!-- end -->
     </section>
     <!-- my work -->
+    <section class="my-work">
+      <h2>my work</h2>
+      <div class="work">
+        <!-- start -->
+        <div class="work-info">
+          <img src="/img/img-2.jpg" alt="project-1" />
+          <h3 class="work-name">Project 1</h3>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="work-info">
+          <img src="/img/img-2.jpg" alt="project-1" />
+          <h3 class="work-name">Project 2</h3>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="work-info">
+          <img src="/img/img-3.png" alt="project-1" />
+          <h3 class="work-name">Project 2</h3>
+        </div>
+        <!-- end -->
+        <!-- start -->
+        <div class="work-info">
+          <img src="/img/img-4.jpg" alt="project-1" />
+          <h3 class="work-name">Project 2</h3>
+        </div>
+        <!-- end -->
+      </div>
+    </section>
+    <!-- Contact Me -->
+    <section class="contact">
+      <h2>contact me</h2>
+      <form action="">
+        <label for="email">
+          <input
+            type="text"
+            name="email"
+            placeholder="enter your e-mail id"
+            class="e-mail"
+          />
+          <button type="submit" class="submitBtn">submit</button>
+        </label>
+      </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <main>
+        <h3>dhruv gajjar</h3>
+        <p>made by dhruv gajjar</p>
+      </main>
+    </footer>
     <script
       src="https://kit.fontawesome.com/9b9b63304b.js"
       crossorigin="anonymous"
